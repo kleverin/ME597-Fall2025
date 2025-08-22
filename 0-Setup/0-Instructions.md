@@ -21,7 +21,7 @@ It is important to note that the lectures will focus primarily on the theoretica
 5. All individuals must submit work for all tasks, including any partnered tasks.
 
 ### Assignment
-1. Signup to Piazza using the following link: [ME597 Spring 2025](https://piazza.com/purdue/fall2025/me597as). 
+1. Signup to Piazza using the following link: [ME597 Fall 2025](https://piazza.com/purdue/fall2025/me597as). 
 2. Verify that you can complete a test upload into Gradescope. We will create a test assignment in which you will have to load a simple text file compressed in *.zip format.
 3. Answer the pre-course survey available on Brightspace. The pre-course survey is only graded for completion.
 4. Complete the [OS installation guide](1-OS_installation_guide.md)
@@ -30,6 +30,7 @@ It is important to note that the lectures will focus primarily on the theoretica
 ### Deliverables
 1. Complete the Pre-course survey on Brightspace--Course tools--Surveys.
 2. Visible login activity in your accounts. This is a non-graded activity, however, it is important for us to see if you experience troubles while accessing Gradescope, Piazza or setting up Ubuntu and ROS 2.
+
 
 
 
