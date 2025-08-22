@@ -17,22 +17,19 @@ It is important to note that the lectures will focus primarily on the theoretica
 1. Lab activities will be posted on the dates specified in the Syllabus.
 2. A basic Python level is expected from the students.
 3. Questions will be answered through Piazza and during lab: The lab session should be used as office hours to make best use of your limited lab time and in-person TA help. It is highly recommended to start working on the labs before the lab sessions.
-4. Discussion between students is allowed, however, the deliverables must show the effort of the
-   individual. When a team deliverable is required, it will be specified in the lab sheet. 
+4. Discussion between students is allowed, however, the deliverables must show the effort of the individual. When a team deliverable is required, it will be specified in the lab sheet. 
 5. All individuals must submit work for all tasks, including any partnered tasks.
 
 ### Assignment
 1. Signup to Piazza using the following link: [ME597 Spring 2025](https://piazza.com/purdue/fall2025/me597as). 
-2. Verify that you can complete a test upload into Gradescope. We will create a test assignment in
-   which you will have to load a simple text file compressed in *.zip format.
+2. Verify that you can complete a test upload into Gradescope. We will create a test assignment in which you will have to load a simple text file compressed in *.zip format.
 3. Answer the pre-course survey available on Brightspace. The pre-course survey is only graded for completion.
 4. Complete the [OS installation guide](1-OS_installation_guide.md)
 5. Complete the [ROS 2 installation guide](2-ROS_2_installation_guide.md)
 
 ### Deliverables
 1. Complete the [Pre-Course Survey](https://purdue.brightspace.com/d2l/le/content/1223383/viewContent/18694918/View).
-2. Visible login activity in your accounts. This is a non-graded activity, however, it is important for
+2. Visible login activity in your accounts. This is a non-graded activity, however, it is important for us to see if you experience troubles while accessing Gradescope, Piazza or setting up Ubuntu and ROS 2.
 
-us to see if you experience troubles while accessing Gradescope, Piazza or setting up Ubuntu and ROS 2.
 
 
