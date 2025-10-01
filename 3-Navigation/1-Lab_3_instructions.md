@@ -66,7 +66,7 @@ NOTE: Again, if the saving fails, that would be caused by lack of namespace, so 
 
 Now we will map in simulation.
 
-1. Follow the instructions [here](https://github.com/naslab-projects/sim_ws.git) to use the simulation environment. Note the specific launch instructions in the `src/turtlebot3_gazebo` subdirectory.
+1. Follow the instructions [here](https://github.com/Purdue-ME597/sim_ws/tree/0aae888f1956432def342f03d40889956348695a) to use the simulation environment. Note the specific launch instructions in the `src/turtlebot3_gazebo` subdirectory.
 2. Manually map the `turtlebot3_house` world:
    * Launch the `mapper.launch.py` file (which belongs to `turtlebot3_gazebo` pkg). 
    * Run the `teleop_twist_keyboard` node (which belongs to `teleop_twist_keyboard` [pkg](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/driving.html)) from within this launch file to teleoperate the TurtleBot4.
@@ -233,3 +233,4 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 05 pts: Week 6 `ros2 bag` files
 * 10 pts: Weeks 7/8, Physical Turtlebot Video recording
 * 20 pts bonus: Improved calculation time of A* algorithm.
+
