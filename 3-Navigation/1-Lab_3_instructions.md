@@ -126,7 +126,7 @@ Compared to other nodes, `auto_navigator.py` is predicted to have a relatively h
    * >90 seconds = 0 points
 After completing this node, 
 **Testing your code (assignmen check off points)**
-2. Follow the instructions [here](https://github.com/naslab-projects/sim_ws.git) to use the simulation environment. Note the specific launch instructions in the `src/turtlebot3_gazebo` subdirectory.
+2. Follow the instructions [here](https://github.com/Purdue-ME597/sim_ws/tree/0aae888f1956432def342f03d40889956348695a) to use the simulation environment. Note the specific launch instructions in the `src/turtlebot3_gazebo` subdirectory.
 3. Launch the `navigator.launch.py` file (which belongs to `turtlebot3_gazebo` pkg). 
 3. Test the `auto_navigator.py` by pick a [target pose in RVIz](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/navigation.html). Ensure it generates a path to the goal and navigates towards it.
 4. Record a video showing your autonomous navigation going to a desired position.
@@ -233,4 +233,5 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 05 pts: Week 6 `ros2 bag` files
 * 10 pts: Weeks 7/8, Physical Turtlebot Video recording
 * 20 pts bonus: Improved calculation time of A* algorithm.
+
 
