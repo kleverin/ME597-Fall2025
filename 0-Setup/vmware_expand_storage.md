@@ -30,7 +30,7 @@ You will need to:
 Follow these instructions: [Ubuntu Docs - Recovery Mode](https://wiki.ubuntu.com/RecoveryMode)
 
 
-# Expanding Storage for vmware after it stops booting.
+# Expanding Storage for vmware after it stops booting
 
 ## Issue
 If you fail to expand your filesystem in time (by following both steps #1 and #2 above), the os might refuse to boot. If you are facing this issue, you can expand the size in recovery mode. For this, follow the steps below.
@@ -40,13 +40,14 @@ If you fail to expand your filesystem in time (by following both steps #1 and #2
 1. Make sure you made space by powering off the VM and expanding the storage in the settings (#1 above).
 2. Go into recovery mode by hitting Esc as soon as it turns on. See [link](https://platform9.com/kb/openstack/how-to-boot-into-recovery-mode-on-an-ubuntu-cloud-image).
 3. Drop to the root terminal.
-4. Type `lsblk`. Ensure the disk size increased and find the main partition number, where the file system is, based on its size. For example, the disk could be `/dev/sda`, since it is now the size you expanded it to, and the partition could be `/dev/sda3` since it was sized that much initially.
+4. Type `lsblk`. Ensure the disk size increased and find the main partition number, where the file system is, based on its size. For example, the disk could be `/dev/sda`, since it is now the size you expanded it to, and the partition could be `/dev/sda3`, since you know the size of the partition initially.
 5. Type `sudo parted /dev/sda`. Replace with the disk you noted.
 6. After it opens into `/dev/sda`, type `resizepart 3 100%` and type yes. This should grow your partition size to fill the free space left. Replace the command with the partition number in place of 3 (3 from /dev/sda3).
 7. Now exit the parted interface by clicking `ctrl + c`.
-8. Type `sudo resize2fs /dev/sda3` in the root terminal and click enter. The filesystem should now grow to utilize the full partition.
-9. Confirm by typing `df -hT`, and check if the filesystem now is using the new space (check the size) as you entered. Replace with the partition you noted.
+8. Type `sudo resize2fs /dev/sda3` in the root terminal and click enter. The filesystem should now grow to utilize the full partition. Replace with the partition you noted.
+9. Confirm by typing `df -hT`, and check if the filesystem now is using the new space (check the size) as you entered. 
 10. Click `ctrl + D` to go back to the recovery menu. Click enter on resume and the boot should work.
+
 
 
 
