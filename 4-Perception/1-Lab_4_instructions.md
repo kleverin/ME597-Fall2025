@@ -153,7 +153,8 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 5  pts: Correct node aliases.
 * 20 pts: Week 9, Part A, `task_5` pkg
 * 35 pts: Week 9, Part B, `task_5` pkg
-* 40 pts: Week 11, Part C, `task_6` pkg
-* +20 pts: Week 11, Part D, `task_6` pkg - Extra Credit
+* 40 pts: Week 10, Part C, `task_6` pkg
+* +20 pts: Week 10, Part D, `task_6` pkg - Extra Credit
+
 
 
