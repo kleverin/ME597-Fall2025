@@ -48,8 +48,8 @@ Task_6:
     * Specify cv_bridge dependencies like so: `ros2 pkg create --build-type ament_python YOUR_PACKAGE_NAME --dependencies rclpy image_transport cv_bridge sensor_msgs std_msgs opencv2` 
 1. Write a simple publisher Python node, within this pkg, called `image_publisher.py`.
 1. The `image_publisher.py` node must perform the following:
-    * Load a [recorded video](https://github.com/LesterYHZ/ME597-Fall2025/blob/main/4-Perception/Resources/lab3_video.avi) file provided by your TAs, titled 'lab3_video.avi'. Use avi video format.
-    * copy the lab3_video.avi to your `src/task_5/resource` folder
+    * Load a [recorded video](https://github.com/LesterYHZ/ME597-Fall2025/blob/main/4-Perception/Resources/lab4_video.avi) file provided by your TAs, titled 'lab4_video.avi'. Use avi video format.
+    * copy the lab4_video.avi to your `src/task_5/resource` folder
     * Publish the raw color image without any processing, using `Image` msg type via the `/video_data` topic.
 1. In your setup.py, give your node the alias `image_publisher`.
 
@@ -155,6 +155,7 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 35 pts: Week 9, Part B, `task_5` pkg
 * 40 pts: Week 10, Part C, `task_6` pkg
 * +20 pts: Week 10, Part D, `task_6` pkg - Extra Credit
+
 
 
 
