@@ -49,7 +49,7 @@ Task_6:
 1. Write a simple publisher Python node, within this pkg, called `image_publisher.py`.
 1. The `image_publisher.py` node must perform the following:
     * Load a [recorded video](https://github.com/LesterYHZ/ME597-Fall2025/blob/main/4-Perception/Resources/lab3_video.avi) file provided by your TAs, titled 'lab3_video.avi'. Use avi video format.
-    * Save the lab3_video.avi to your `src/task_5/resource` folder
+    * copy the lab3_video.avi to your `src/task_5/resource` folder
     * Publish the raw color image without any processing, using `Image` msg type via the `/video_data` topic.
 1. In your setup.py, give your node the alias `image_publisher`.
 
@@ -79,7 +79,7 @@ Task_6:
 ## Week 10
 This week you will control your robot in simulation to follow a red ball.
 ### Test the simulator (10 min):
-1. Re-install sim_ws by following the updated instructions in [2-ROS_2_installation_guide.md](../0-Setup/2-ROS_2_installation_guide.md). You may delete your old sim_ws. For the time being, Mac users will need to use lab computers for robot simulation.
+1. Make sure you have sim_ws by following the instructions in [2-ROS_2_installation_guide.md](../0-Setup/2-ROS_2_installation_guide.md). 
 2. First, try launching the simulator with a red ball.
 `ros2 launch turtlebot3_gazebo task_6.launch.py`
 3. Next, try controlling the red ball. Use the wasd keys.
@@ -155,6 +155,7 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 35 pts: Week 9, Part B, `task_5` pkg
 * 40 pts: Week 10, Part C, `task_6` pkg
 * +20 pts: Week 10, Part D, `task_6` pkg - Extra Credit
+
 
 
 
