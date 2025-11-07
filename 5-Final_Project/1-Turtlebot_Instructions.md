@@ -45,7 +45,7 @@ The project gives a total of 100 points for what we call basic tasks. In additio
         package_share_directory = ament_index_python.packages.get_package_share_directory('turtlebot3_gazebo')
         map_yaml_path = os.path.join(package_share_directory, 'maps', map_name + '.yaml')
   
-* To aid in completing this project, we have created a repository with the base files that you will need to solve all the tasks. You can clone the simulation workspace from the following [link](https://github.com/LesterYHZ/sim_ws_Fall2025/tree/main), with code templates available in the `src/turtlebot3_gazebo/src/lab4` directory. 
+* To aid in completing this project, we have created a repository with the base files that you will need to solve all the tasks. You can clone the simulation workspace from the following [link](https://github.com/naslab-projects/sim_ws_Fall2025.git), with code templates available in the `src/turtlebot3_gazebo/src/lab4` directory. 
 * Your solution Python script for each task should be self-sufficent without depending on other scripts (from the other tasks or otherwise).
 * Please only depend on commonly used Python (ROS2) packages like `numpy`, `rclpy`, `math`, and `cv2`.
 * Do not submit extra files for any tasks. Each task file should be able to function without relying on another task file. Any major problem while running your files will be subject to point deductions. 
@@ -122,6 +122,7 @@ Finally, you will give a 5-7 slide presentation. This must contain a concise exp
 * (up to 10 pts) - Extra Credit - Successful unknown world mapping for Task 1.
 * (up to 10 pts) - Extra Credit - RRT* Local Path Replanning.
 * (up to 10 pts) - Extra Credit - Top 50% fastest solutions for Task 3.
+
 
 
 
