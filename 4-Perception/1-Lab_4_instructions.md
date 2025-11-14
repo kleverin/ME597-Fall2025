@@ -48,7 +48,7 @@ Task_6:
     * Specify cv_bridge dependencies like so: `ros2 pkg create --build-type ament_python YOUR_PACKAGE_NAME --dependencies rclpy image_transport cv_bridge sensor_msgs std_msgs opencv2` 
 1. Write a simple publisher Python node, within this pkg, called `image_publisher.py`.
 1. The `image_publisher.py` node must perform the following:
-    * Load a [recorded video](https://github.com/LesterYHZ/ME597-Fall2025/blob/main/4-Perception/Resources/lab4_video.avi) file provided by your TAs, titled 'lab4_video.avi'. Use avi video format.
+    * Load a [recorded video](https://github.com/naslab-projects/ME597-Fall2025/blob/main/4-Perception/Resources/lab4_video.avi) file provided by your TAs, titled 'lab4_video.avi'. Use avi video format.
     * Copy lab4_video.avi to your `src/task_5/Resources` folder
     * Publish the raw color image without any processing, using `Image` msg type via the `/video_data` topic.
 1. In your setup.py, give your node the alias `image_publisher`.
@@ -57,7 +57,7 @@ Task_6:
 1. Write a subscriber Python node, within this pkg, called `object_detector.py`
 1. The `object_detector.py` node must perform the following:
     * Subscribe to the `/video_data` topic.
-    * Print the x and y position of the centroid of a detected object, relative to the top left corner of the frame (e.g.- top left is (0,0), bottom right is (w,h)), in pixels.
+    * Print the x and y position of the centroid of a detected object (the red triangle), relative to the top left corner of the frame (e.g.- top left is (0,0), bottom right is (w,h)), in pixels.
     * Print the width and height of the detected object, in pixels.
     * Publish these values to a topic called `/bbox` of type `/vision_msgs/BoundingBox2D`. Reference the [message definition source code](https://github.com/ros-perception/vision_msgs/blob/ros2/vision_msgs/msg/BoundingBox2D.msg)
        * If it's not available, install with `sudo apt install ros-humble-vision-msgs` 
@@ -155,6 +155,8 @@ Deviating from the names provided in the lab sheet will result in penalties.
 * 35 pts: Week 9, Part B, `task_5` pkg
 * 40 pts: Week 10, Part C, `task_6` pkg
 * +20 pts: Week 10, Part D, `task_6` pkg - Extra Credit
+
+
 
 
 
