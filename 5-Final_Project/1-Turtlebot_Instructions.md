@@ -83,6 +83,21 @@ You will use
 
 * `navigator.launch.py` for Tasks 2 and 3 
 
+### Submission Requirements
+1) For Task 1:
+
+   You will save/load your map files to/from the maps folder in the turtlebot3_gazebo package. Call it "map.yaml","map.pgm". 
+
+2) For Task 2:
+
+   Make sure your map will load the map file called "map" from the turtlebot3_gazebo package.
+
+3) For Task 3:
+
+   You must publish the x,y position of each color ball. You can leave the z position as 0.
+
+Please publish a Point type message (`geometry_msgs/Point`) to three separate topics called: `/red_pos`, `/blue_pos`, `/green_pos`.
+
 ### Grading
 1) Task 1: Autonomous Mapping
     * Baseline solution: autonomous mapping strategy to create a map of the given world
@@ -122,6 +137,7 @@ Finally, you will give a 5-7 slide presentation. This must contain a concise exp
 * (up to 10 pts) - Extra Credit - Successful unknown world mapping for Task 1.
 * (up to 10 pts) - Extra Credit - RRT* Local Path Replanning.
 * (up to 10 pts) - Extra Credit - Top 50% fastest solutions for Task 3.
+
 
 
 
